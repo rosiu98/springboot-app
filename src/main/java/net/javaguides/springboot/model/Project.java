@@ -18,7 +18,7 @@ public class Project {
 	@Column(name = "title")
 	private String title;
 	
-	@Column(name = "html")
+	@Column(name="html", length=8000)
 	private String html;
 	
 	@Column(name = "category")
